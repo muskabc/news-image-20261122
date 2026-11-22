@@ -7,15 +7,6 @@
 // environment points at (or /output when nothing is set). Because the
 // file is only copied, never redrawn, two runs always produce identical
 // bytes.
-// Entry point for the 22 November 2026 news-image entry.
-//
-// The picture itself is already finished and stored in this repository
-// as entry.png, so all this program has to do is hand an exact copy of
-// it to the grader. It reads the file sitting next to this script and
-// writes those same bytes to entry.png inside the output folder the
-// environment points at (or /output when nothing is set). Because the
-// file is only copied, never redrawn, two runs always produce identical
-// bytes.
 //
 // After copying, the program re-reads both files and compares their
 // SHA-256 digests, so a truncated or corrupted write is reported as a
